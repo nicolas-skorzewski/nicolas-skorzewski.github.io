@@ -44,10 +44,11 @@ body{
   }
 
   .adjHeader{
-      font-size: 2em;
+      font-size: 1.5em;
       color: #D999B9;
       margin: 1em 0 1em 1em;
       letter-spacing: 20px;
+      text-align: center;
   }
   
 
@@ -172,6 +173,35 @@ body{
     float: right;
     font-size: 2em;
 }
-.socialIcon:hover{
+.icon:hover{
     color: #D999B9;
+}
+#contact{
+    float: right;
+}
+.contact{
+    text-align: center;
+    font-size: 8em;
+    color: #D999B9;
+    margin-bottom: .5em;
+    margin-top: 0;
+}
+#contactPhoto{
+    height: 35%;
+    width: 35%;
+    transform: rotate(-90deg); 
+    border: solid 4px #D999B9;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+}
+.contactSub{
+    text-align: center;
+    color: #D999B9;
+    font-size:2em;
+    font-weight: 50;
+}
+#emailNum{
+    font-family: 'Roboto', sans-serif;
+
 }
